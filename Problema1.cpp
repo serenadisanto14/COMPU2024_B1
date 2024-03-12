@@ -11,6 +11,22 @@
 
 int main()
 {
-    //test
-    printf("%lf",2000.);
+   //initialize variables
+    int i,j,k;
+    double x,y,z,w;
+
+    //initialize Files
+    FILE *f1;
+    f1=fopen("myoutputfile.txt","w");
+
+    //read input
+    x=1.0;
+    y=5.0;
+    
+    //compute
+    z=x+1.4;
+
+    //write output
+    fprintf(f1,"%.lf",z);
+    fclose(f1);
 }
