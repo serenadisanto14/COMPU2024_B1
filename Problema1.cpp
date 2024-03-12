@@ -26,6 +26,7 @@ int main()
     //compute
     z=x+1.4;
 
+    //ghusdfhu
     //write output
     fprintf(f1,"%.lf",z);
     fclose(f1);
