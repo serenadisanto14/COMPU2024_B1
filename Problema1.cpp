@@ -29,4 +29,5 @@ int main()
     //write output
     fprintf(f1,"%.lf",z);
     fclose(f1);
+    //observation on the file .gitignore
 }
